@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="i" class="com.satya.Construct">
+
+<constructor-arg value="101" type="int"/>
+<constructor-arg value="venki" type="String"/>
+<constructor-arg value="grzl" type="String"/>
+<constructor-arg value="120.89" type="double"></constructor-arg>
+</bean>
+
+</beans>
