@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="i" class="com.satya.DemoBean">
+<property name="studentId" value="121"/>
+<property name="addressSet">
+<set>
+<value>India</value>
+<value>USA</value>
+</set>
+</property>
+<property name="addressList">
+<list>
+<value>guntur</value>
+<value>gurzl</value>
+</list>
+</property>
+<property name="addressMap">
+<map>
+<entry key="1" value="India"/>
+<entry key="2" value="Australia"/>
+<entry key="3" value="mumbai"/>
+<entry key="4" value="karnataka"/>
+</map>
+</property>
+<property name="addressProp">
+<props>
+<prop key="one">India</prop>
+<prop key="two">China</prop>
+<prop key="three">japan</prop>
+</props>
+</property>
+</bean>
+</beans>
